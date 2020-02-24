@@ -1,2 +1,2 @@
-# Pshenya.github.io
-Online tests with GitHub Pages
+# Tests with GitHub Pages
+Online demo: https://pshenya.github.io
