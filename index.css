@@ -217,6 +217,7 @@ header table {
     width: 1000px;
     height: 500px;
     border-radius: 15px;
+    color: #121212;
     background-color: #5cdb95;
     z-index: 100;
     opacity: .9;
@@ -258,6 +259,10 @@ header table {
     padding: 10px 20px;
     background-color: #121212;
     color: #5cdb95;
+}
+
+#photos .project__technologies{
+    font-size: 2rem;
 }
 
 #bio {
