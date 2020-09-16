@@ -198,8 +198,8 @@ header table {
 #photos .images_wrap{
     align-self: center;
     position: relative;
-    width: 1000px;
-    height: 500px;
+    max-width: 1000px;
+    max-height: 500px;
     display: inline-block;
     margin:4.5% 0;
     border-radius: 15px;
@@ -416,7 +416,7 @@ button:focus {
     background: #5cdb95;
 }
 ::-webkit-scrollbar-thumb {
-    background: #05386b;
+    background: #121212;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8);
@@ -462,13 +462,15 @@ button:focus {
         padding:6px 30px;
         width:60%;
         margin:4vh auto;
-        box-shadow:0 10px 20px rgba(255, 44, 90, 0.8);
-        background:rgb(255, 44, 90);
+        background:rgb(92, 219, 149);
         color:#fff;
     }
     .btn_one:hover {
-        box-shadow:0 10px 40px rgba(255, 44, 90, 0.8);
+        box-shadow:0 10px 40px rgba(92, 219, 149, 0.8);
         cursor:pointer;
+    }
+    #contact .social{
+        margin: 0 7px;
     }
     #contact table tr td {
         width:100%;
@@ -483,6 +485,11 @@ button:focus {
     #contact form textarea {
         width:90%;
     }
+    #contact form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     #projects h1 {
         width:19%;
     }
@@ -494,7 +501,7 @@ button:focus {
     }
     header {
         width:96vw;
-        background:#fff;
+        background:#121212;
         padding:4vh 2vw;
         position:absolute;
     }
@@ -505,7 +512,7 @@ button:focus {
         padding:15px 0;
     }
     #navigation a {
-        color:#000;
+        color:#fff;
     }
 }
 
