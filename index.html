@@ -71,15 +71,17 @@
     <h1 class="projects__heading">projects</h1>
     <div id="photos">
         <div class="images_wrap">
-            <img class="project_img" src="img/hr-portal.jpg" alt="HR-Portal">
+            <img class="project_img" src="assets/img/hr-portal.jpg" alt="HR-Portal">
             <div class="overlay">
                 <div class="project_about">
                     <h1>HR-Portal</h1>
                     <p>social network for HR's</p>
                     <span class="project__technologies">technologies:
-                        <i class="fab fa-react" style="color: #61dbfb"></i>
-                        <span class="iconify" data-icon="logos-redux" data-inline="false" style="margin-bottom: -3px"></span>
-                        <i class="fab fa-node-js" style="color: #44883e;"></i>
+                        <img class="icon" src="assets/icons/react.svg" alt="react">
+                        <img class="icon" src="assets/icons/redux.svg" alt="redux">
+                        <img class="icon" src="assets/icons/nodejs.svg" alt="node-js">
+                        <img class="icon" src="assets/icons/css.svg" alt="css">
+
                     </span>
                     <div class="projects__live-demo">
                         <a href="https://pshenya.github.io/HR-Portal" target="_blank"><i
@@ -89,13 +91,15 @@
             </div>
         </div>
         <div class="images_wrap">
-            <img class="project_img" src="img/news-app.jpg" alt="HR-Portal">
+            <img class="project_img" src="assets/img/news-app.jpg" alt="News App">
             <div class="overlay">
                 <div class="project_about">
                     <h1>News App</h1>
                     <p>simple news application using NEWS API on Angular</p>
                     <span class="project__technologies">technologies:
-                        <i class="fab fa-angular" style="color: rgb(235,0,15)"></i>
+                        <img class="icon" src="assets/icons/html.svg" alt="html">
+                        <img class="icon" src="assets/icons/css.svg" alt="css">
+                        <img class="icon" src="assets/icons/angular.svg" alt="angular">
                     </span>
                     <div class="projects__live-demo">
                         <a href="https://pshenya.github.io/NewsApp" target="_blank"><i class="fas fa-external-link-alt"
@@ -106,13 +110,32 @@
             </div>
         </div>
         <div class="images_wrap">
-            <img class="project_img" src="img/star-db.jpg" alt="HR-Portal">
+            <img class="project_img" src="assets/img/linkedin-analytics.jpg" alt="LinkedIn Analytics">
+            <div class="overlay">
+                <div class="project_about">
+                    <h1>LinkedIn Analytics</h1>
+                    <p>web app that analyze your linkedin posts performance</p>
+                    <span class="project__technologies">technologies:
+                        <img class="icon" src="assets/icons/html.svg" alt="html">
+                        <img class="icon" src="assets/icons/css.svg" alt="css">
+                        <img class="icon" src="assets/icons/python.svg" alt="python"/>
+                    </span>
+                    <div class="projects__live-demo">
+                        <a href="https://github.com/StanislavLukashevich/linkedin-analytics" target="_blank"><i
+                                class="fas fa-external-link-alt" style="margin-right: 5px"></i>View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="images_wrap">
+            <img class="project_img" src="assets/img/star-db.jpg" alt="Star DB">
             <div class="overlay">
                 <div class="project_about">
                     <h1>Star DB</h1>
                     <p>star wars interactive db using SWAPI</p>
                     <span class="project__technologies">technologies:
-                        <i class="fab fa-react" style="color: #61dbfb"></i>
+                        <img class="icon" src="assets/icons/react.svg" alt="react">
+                        <img class="icon" src="assets/icons/css.svg" alt="css">
                     </span>
                     <div class="projects__live-demo">
                         <a href="https://pshenya.github.io/StarWars-DB/" target="_blank"><i
@@ -126,19 +149,27 @@
 <div id="bio">
     <h1>about</h1>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
+        Wow, I’m quite impressed, you have moved down to this section already. I appreciate that. Alright, let’s get
+        to know each other better.<br>
     </p>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
+        I’ve been practicing web development for 3 years now and I'm really into it. I’m full of passion of improving
+        myself and extremely motivated to constantly develop my skills and grow professionally. I come up with
+        optimizing and work smart so that the user has a better experience with the product.
     </p>
+    <p>
+        I’m finishing my bachelors in Taras Shevchenko National University of Kyiv. My specialty is software
+        engineering.
+        Besides programming I adore listen to music, moreover, I write my own music in my spare time. You can check this
+        out on my <a class="youtube_link" href="https://www.youtube.com/channel/UC9aYUnvrewZ-oqn5GI4JN7w"
+                     target="_blank">YouTube channel</a>. But that’s just a hobby :)
+    </p>
+    <p>
+        Let's get in touch!
+    </p>
+    <div class="resume">
+        <a href="assets/Pavel_Pshenyshniuk_CV.pdf" target="_blank">my resume</a>
+    </div>
 </div>
 <div id="contact">
     <h1>contact</h1>
@@ -179,18 +210,18 @@
                 </div>
             </td>
             <td>
-                <form>
-                    <input type="text" placeholder="name" required>
-                    <input type="email" placeholder="email" required><br>
-                    <textarea placeholder="your message" required rows="5"></textarea><br>
-                    <button class="btn_one">send</button>
+                <form method="post" action="mailto:pashapshenishnyuk@gmail.com">
+                    <input type="text" name="name" placeholder="name" required>
+                    <input type="email" name="email" placeholder="email" required><br>
+                    <textarea placeholder="your message" name="message" required rows="5"></textarea><br>
+                    <button type="submit" class="btn_one">send</button>
                 </form>
             </td>
         </tr>
     </table>
 </div>
 <div id="footer">
-    made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+    made by <br> <a href="https://github.com/Pshenya">pavel pshenyshniuk</a>
 </div>
 <script src="index.js" type="text/javascript"></script>
 </body>

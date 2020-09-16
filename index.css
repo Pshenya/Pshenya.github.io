@@ -170,7 +170,7 @@ header table {
 #rightImage {
     width:100%;
     height:95vh;
-    background:linear-gradient(0deg, rgba(92, 219, 149, 0.2), rgba(70, 153, 107, 0.2)),url("img/myface2.jpg") center center;
+    background:linear-gradient(0deg, rgba(92, 219, 149, 0.2), rgba(70, 153, 107, 0.2)),url("assets/img/myface2.jpg") center center;
     /*background:linear-gradient(0deg, rgba(250, 104, 241, 0.8), rgba(227, 102, 225,0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;*/
     background-size:cover;
     background-repeat:no-repeat;
@@ -202,7 +202,11 @@ header table {
     height: 500px;
     display: inline-block;
     margin:4.5% 0;
+    border-radius: 15px;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.5);
+
 }
+
 #photos img {
     border: none;
     align-self: center;
@@ -248,11 +252,23 @@ header table {
     font-size: 9rem;
 }
 
+#photos .images_wrap:nth-child(3) .project_about{
+    line-height: 40px;
+}
+#photos .images_wrap:nth-child(3) .project_about h1{
+    font-size: 6rem;
+}
+
 #photos .project_about p{
     font-size: 2rem;
 }
+
+#photos .icon{
+    width: 40px;
+    margin-bottom: -10px;
+}
 #photos .projects__live-demo{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #photos .projects__live-demo a{
     text-decoration: none;
@@ -276,6 +292,37 @@ header table {
     border-bottom:4px solid #5cdb95;
     width:8%;
 }
+#bio .youtube_link{
+    text-decoration: none;
+    color: #5cdb95;
+}
+#bio .resume{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#bio .resume a{
+    margin-top: 20px !important;
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    color: #edf5e1;
+    background: #5cdb95;
+    border:3px solid #5cdb95;
+    padding:10px 50px;
+    text-align: center;
+    border-radius:80px;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+}
+#bio .resume a:hover {
+    box-shadow:0 10px 30px rgba(151, 157, 143, 0.8);
+    cursor:pointer;
+    color: #5cdb95;
+    background: #edf5e1;
+    border: 3px solid #edf5e1;
+}
+
 #contact {
     width:92vw;
     padding:6vh 4vw;
